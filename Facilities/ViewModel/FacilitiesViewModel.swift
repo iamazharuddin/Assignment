@@ -11,7 +11,7 @@ class FacilitiesViewModel : ObservableObject {
     @Published var facilities = [Facility]() // List of facilities
     @Published var isLoading = false
     @Published var disabledOptions = Set<String>() // store optionId
-    @Published var exclusionDictionary = [String: Set<String>]() // faciltyId + optionId => set of excluded of optionss
+    @Published var exclusionDictionary = [String: Set<String>]() // faciltyId||optionId => set of excluded of optionss
     init(){
         fetchFacilitiesData()
     }
