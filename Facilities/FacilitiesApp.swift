@@ -6,7 +6,6 @@
 //
 
 import SwiftUI
-
 @main
 struct FacilitiesApp: App {
     var body: some Scene {
